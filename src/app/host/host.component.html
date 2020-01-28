@@ -1,0 +1,25 @@
+
+<ng-container *ngIf="isLoaded; else loading">
+    
+
+    <div *ngIf="auth.user$ | async as user; else loggedOut">
+
+        <p>{{user.email}}</p>
+        <button mat-raised-button color="warn" (click)="logout()">Logout</button>
+    
+    </div>
+    
+    <ng-template #loggedOut>
+    
+        <button mat-raised-button color="primary" (click)="login()">Login with Spotify</button>
+    
+    </ng-template>
+
+
+</ng-container>
+<ng-template #loading>
+    <mat-spinner class="center"> </mat-spinner>
+</ng-template>
+
+
+

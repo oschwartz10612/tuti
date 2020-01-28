@@ -1,0 +1,25 @@
+
+<ng-container *ngIf="!isLoaded">
+    <mat-spinner class="center"></mat-spinner>
+</ng-container>
+
+<ng-container *ngIf="noRoom">
+    no room
+</ng-container>
+
+<ng-container *ngIf="room$ | async as room">
+
+    <ng-container *ngIf="room.active; else notActive">
+        active room
+    </ng-container>
+    
+    <ng-template #notActive>
+        not active
+    </ng-template>
+    
+</ng-container>
+    
+
+
+
+    
