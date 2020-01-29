@@ -3,21 +3,41 @@
     <mat-spinner class="center"></mat-spinner>
 </ng-container>
 
-<ng-container *ngIf="noRoom">
-    no room
-</ng-container>
-
-<ng-container *ngIf="room$ | async as room">
-
-    <ng-container *ngIf="room.active; else notActive">
-        active room
+<div class="container">
+    <ng-container *ngIf="noRoom">
+        no room
     </ng-container>
     
-    <ng-template #notActive>
-        not active
-    </ng-template>
+    <ng-container *ngIf="room$ | async as room">
     
-</ng-container>
+        <ng-container *ngIf="room.active; else notActive">
+    
+            <mat-form-field>
+                <input matInput placeholder="Search Track" #searchInput (keyup.enter)="searchNow(searchInput.value)"> 
+            </mat-form-field>
+            <button mat-raised-button color="warn" (click)="searchNow(searchInput.value)">Search</button>
+            
+            <ng-container *ngIf="searchResult$ | async as result">
+    
+                <ng-container *ngFor="let item of result.tracks.items">
+    
+                    <p>{{item.name}}</p>
+                    <img src="{{item.album.images[0].url}}" width="100">
+    
+                </ng-container>
+    
+            </ng-container>
+    
+        </ng-container>
+        
+        <ng-template #notActive>
+            not active
+        </ng-template>
+        
+    </ng-container>
+</div>
+
+
     
 
 

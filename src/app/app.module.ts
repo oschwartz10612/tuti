@@ -20,6 +20,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { SearchTileComponent } from './play/search-tile/search-tile.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {MatInputModule} from '@angular/material/input';
     SpotifyCallbackComponent,
     HostComponent,
     JoinComponent,
-    PlayComponent
+    PlayComponent,
+    SearchTileComponent
   ],
   imports: [
     BrowserModule,

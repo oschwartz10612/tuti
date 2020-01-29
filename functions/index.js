@@ -89,3 +89,27 @@ async function createFirebaseAccount(spotifyID, displayName, email, accessToken,
     const token = await admin.auth().createCustomToken(uid);
     return token;
 }
+
+
+exports.getApiToken = functions.https.onCall(async (data, context) => {
+    // your application requests authorization
+    var authOptions = {
+        url: 'https://accounts.spotify.com/api/token',
+        headers: {
+        'Authorization': 'Basic ' + (Buffer.from(client_id + ':' + client_secret).toString('base64'))
+        },
+        form: {
+        grant_type: 'client_credentials'
+        },
+        json: true
+    };
+
+    var token = await request.post(authOptions)
+
+    if (!token.error) {
+        return token;
+    } else {
+        throw new functions.https.HttpsError('request-error', 'The function had trouble connecting with spotify.');
+    }
+
+});
