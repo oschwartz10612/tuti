@@ -14,17 +14,29 @@ import { switchMap } from "rxjs/operators";
 export class AuthService {
 
   user$: Observable<any>;
+  userData = {
+    uid: ''
+  }
 
   constructor(private afAuth: AngularFireAuth, private fns: AngularFireFunctions, private afs: AngularFirestore, private router: Router) {
     this.user$ = afAuth.authState.pipe(
       switchMap(user => {
         if (user) {
-          return afs.doc(`users/${user.uid}`).valueChanges();
+          if (user.isAnonymous) {
+            return afs.doc(`anonUsers/${user.uid}`).valueChanges();
+          } else {
+            return afs.doc(`users/${user.uid}`).valueChanges();
+          }
         } else {
           return of(null);
         }
       })
     );
+
+    this.user$.subscribe(user => {
+      console.log(user);
+      this.userData.uid = user.uid
+    })
   }
 
   login() {
@@ -34,7 +46,7 @@ export class AuthService {
 
   async handelCallback(authCode) {
     const account = await this.fns.httpsCallable('createFirebaseAccount')({ code: authCode }).toPromise();
-    this.afAuth.auth.signInWithCustomToken(account.token)
+    await this.afAuth.auth.signInWithCustomToken(account.token)
     this.router.navigate(['/host']);
   }
 
@@ -42,8 +54,12 @@ export class AuthService {
     this.afAuth.auth.signOut();
   }
 
-  async getTokens(uid) {
-    return await this.afs.collection('spotifyTokens').doc(uid).get().toPromise()
+  async loginAnon() {
+    const userCredential = await this.afAuth.auth.signInAnonymously();
+    await this.afs.doc(`anonUsers/${userCredential.user.uid}`).set({
+      uid: userCredential.user.uid,
+      remaining: 2
+    })
   }
 
   getLoginURL(scopes) {

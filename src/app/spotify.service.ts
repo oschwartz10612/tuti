@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams, HttpHeaders } from "@angular/common/http";
-import { environment } from "../environments/environment";
 import { AngularFireFunctions } from '@angular/fire/functions';
-import { TokenizeResult } from '@angular/compiler/src/ml_parser/lexer';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { AuthService } from './auth.service';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +10,9 @@ import { TokenizeResult } from '@angular/compiler/src/ml_parser/lexer';
 
 export class SpotifyService {
 
-  constructor(private http: HttpClient, private fns: AngularFireFunctions) { }
+  roomId: string
+
+  constructor(private http: HttpClient, private fns: AngularFireFunctions, private afs: AngularFirestore, private auth: AuthService) { }
 
    async search(query, type: 'album' | 'artist' | 'playlist' | 'track') {
     const token = await this.getApiToken()
@@ -25,5 +27,13 @@ export class SpotifyService {
   async getApiToken() {
       const token = await this.fns.httpsCallable('getApiToken')({}).toPromise();
       return token.access_token;
+  }
+
+  addTrack(trackUri) {
+    this.afs.doc(`rooms/${this.roomId}`).collection('tracks').doc(trackUri).set({
+      trackUri: trackUri,
+      addedBy: this.auth.userData.uid,
+      rank: 1
+    })
   }
 }

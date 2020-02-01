@@ -19,7 +19,9 @@ export class PlayComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private router: Router, private afs: AngularFirestore, private spotify: SpotifyService) { 
     let id = this.route.snapshot.paramMap.get('id');
-    this.room$ = afs.collection(id).doc('room').valueChanges()
+    spotify.roomId = id
+    
+    this.room$ = afs.doc(`rooms/${id}`).valueChanges()
     this.room$.subscribe(room => {
       this.isLoaded = true
       if(room == undefined || room == null) {

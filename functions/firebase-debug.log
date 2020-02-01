@@ -7358,3 +7358,802 @@
 [info] i  functions: Finished "getApiToken" in ~1s
 [debug] [2020-01-29T01:30:10.144Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
 [debug] [2020-01-29T01:30:10.144Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:19:35.266Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:19:35.273Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:19:35.274Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:19:35.275Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:19:35.279Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:19:35.279Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:19:35.347Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:19:35.371Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:19:35.374Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:19:35.376Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:19:35.398Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:19:35.423Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:19:35.426Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:19:35.436Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:19:35.437Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:19:35.437Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:19:35.437Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:19:35.437Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:19:35.437Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:19:35.437Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:19:35.437Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:19:35.447Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:19:35.448Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:19:35.450Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:19:35.450Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:19:35.452Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:19:35.457Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:19:35.492Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:19:35.618Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:19:35.618Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:20:02.613Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:20:02.618Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:20:02.618Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:20:02.618Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:20:02.621Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:02.621Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:20:02.626Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:20:02.637Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:20:02.643Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:20:02.647Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:02.648Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:20:02.659Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:20:02.663Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:20:02.670Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:20:02.670Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:20:02.671Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:20:02.671Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:20:02.671Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:20:02.671Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:20:02.672Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:02.672Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:20:02.680Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:20:02.691Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:20:02.691Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:20:02.691Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:02.694Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:20:02.721Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:20:02.721Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:20:02.778Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:20:02.778Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:20:35.231Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:20:35.231Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:20:35.233Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:20:35.233Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:20:35.235Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:35.235Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:20:35.238Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:20:35.248Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:20:35.249Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:20:35.249Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:35.255Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:20:35.263Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:20:35.265Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:20:35.270Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:20:35.270Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:20:35.271Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:20:35.271Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:20:35.271Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:20:35.271Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:20:35.272Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:35.272Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:20:35.285Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:20:35.293Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:20:35.295Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:20:35.295Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:20:35.315Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:20:35.322Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:20:35.325Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:20:35.388Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:20:35.388Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:21:01.680Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:21:01.680Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:21:01.680Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:21:01.681Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:21:01.682Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:21:01.682Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:21:01.684Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:21:01.692Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:21:01.692Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:21:01.692Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:21:01.700Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:21:01.713Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:21:01.756Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:21:01.758Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:21:01.759Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:21:01.759Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:21:01.759Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:21:01.759Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:21:01.759Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:21:01.759Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:21:01.759Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:21:01.767Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:21:01.773Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:21:01.773Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:21:01.773Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:21:01.775Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:21:01.787Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:21:01.790Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:21:01.837Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:21:01.837Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:22:15.101Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:22:15.101Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:22:15.101Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:22:15.101Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:22:15.101Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:15.101Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:22:15.104Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:22:15.108Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:22:15.108Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:22:15.108Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:15.109Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:22:15.121Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:22:15.121Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:22:15.128Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:22:15.128Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:22:15.130Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:22:15.131Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:22:15.131Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:22:15.131Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:22:15.131Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:15.131Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:22:15.143Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:22:15.145Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:22:15.147Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:22:15.147Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:15.147Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:22:15.149Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:22:15.149Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:22:15.215Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:22:15.215Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:22:38.029Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:22:38.030Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:22:38.032Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:22:38.032Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:22:38.032Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:38.032Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:22:38.034Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:22:38.036Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:22:38.036Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:22:38.047Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:38.047Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:22:38.053Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:22:38.054Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:22:38.054Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:22:38.054Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:22:38.057Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:22:38.059Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:22:38.059Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:22:38.059Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:22:38.059Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:38.059Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:22:38.064Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:22:38.070Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:22:38.070Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:22:38.070Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:22:38.073Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:22:38.088Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:22:38.093Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:22:38.145Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:22:38.145Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:23:40.597Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:23:40.597Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:23:40.597Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:23:40.597Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:23:40.597Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:40.597Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:23:40.602Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:23:40.602Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:23:40.602Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:23:40.602Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:40.603Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:23:40.605Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:23:40.607Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:23:40.608Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:23:40.608Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:23:40.613Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:23:40.613Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:23:40.613Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:23:40.614Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:23:40.614Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:40.614Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:23:40.619Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:23:40.620Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:23:40.620Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:23:40.620Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:40.620Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:23:40.623Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:23:40.624Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:23:40.676Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:23:40.676Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:23:57.704Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:23:57.704Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:23:57.704Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:23:57.704Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:23:57.704Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:57.704Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:23:57.704Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:23:57.707Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:23:57.707Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:23:57.708Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:57.708Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:23:57.711Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:23:57.712Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:23:57.713Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:23:57.713Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:23:57.718Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:23:57.718Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:23:57.718Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:23:57.718Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:23:57.718Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:57.718Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:23:57.724Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:23:57.725Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:23:57.725Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:23:57.725Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:23:57.727Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:23:57.738Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:23:57.738Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:23:57.792Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:23:57.792Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:24:56.743Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:24:56.743Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:24:56.743Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:24:56.743Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:24:56.743Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:24:56.743Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:24:56.744Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:24:56.744Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:24:56.744Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:24:56.747Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:24:56.750Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:24:56.756Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:24:56.756Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:24:56.757Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:24:56.757Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:24:56.760Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:24:56.760Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:24:56.760Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:24:56.760Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:24:56.761Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:24:56.761Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:24:56.769Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:24:56.771Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:24:56.771Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:24:56.774Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:24:56.775Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:24:56.776Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:24:56.776Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:24:56.839Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:24:56.839Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:25:06.623Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:25:06.626Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:25:06.626Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:25:06.626Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:25:06.626Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:06.626Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:25:06.627Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:25:06.629Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:25:06.629Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:25:06.630Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:06.631Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:25:06.633Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:25:06.636Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:25:06.636Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:25:06.636Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:25:06.639Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:25:06.639Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:25:06.648Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:25:06.649Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:25:06.649Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:06.649Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:25:06.649Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:25:06.649Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:25:06.649Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:25:06.649Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:06.650Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:25:06.653Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:25:06.653Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:25:06.716Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:25:06.716Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:25:29.703Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:25:29.703Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:25:29.703Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:25:29.703Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:25:29.703Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:29.703Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:25:29.704Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:25:29.704Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:25:29.704Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:25:29.704Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:29.705Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:25:29.708Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:25:29.711Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:25:29.712Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:25:29.712Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:25:29.716Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:25:29.716Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:25:29.716Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:25:29.717Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:25:29.717Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:29.717Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:25:29.723Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:25:29.723Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:25:29.723Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:25:29.723Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:29.724Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:25:29.728Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:25:29.729Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:25:29.939Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:25:29.939Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:25:32.342Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:25:32.344Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:25:32.344Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:25:32.344Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:25:32.344Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:32.344Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:25:32.345Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:25:32.345Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:25:32.345Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:25:32.345Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:32.354Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:25:32.355Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:25:32.355Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:25:32.403Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:25:32.403Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:25:41.959Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:25:41.959Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:25:41.959Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:25:41.959Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:25:41.959Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:41.959Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:25:41.959Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:25:41.965Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:25:41.965Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:25:41.965Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:41.965Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:25:41.967Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:25:41.970Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:25:41.971Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:25:41.971Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:25:41.975Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:25:41.976Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:25:41.976Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:25:41.976Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:25:41.976Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:41.976Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:25:41.981Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:25:41.981Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:25:41.981Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:25:41.981Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:25:41.983Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:25:41.985Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:25:41.985Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:25:42.039Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:25:42.039Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:26:43.152Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:26:43.152Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:26:43.152Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:26:43.152Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:26:43.152Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:26:43.152Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:26:43.152Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:26:43.153Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:26:43.153Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:26:43.153Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:26:43.158Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:26:43.177Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:26:43.178Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:26:43.186Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:26:43.186Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:26:43.186Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:26:43.186Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:26:43.186Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:26:43.186Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:26:43.186Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:26:43.186Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:26:43.189Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:26:43.190Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:26:43.190Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:26:43.191Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:26:43.191Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:26:43.193Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:26:43.193Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:26:43.254Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:26:43.254Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:27:36.309Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:27:36.310Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:27:36.310Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:27:36.310Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:27:36.310Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:27:36.310Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:27:36.310Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:27:36.310Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:27:36.310Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:27:36.310Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:27:36.314Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:27:36.321Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:27:36.322Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:27:36.324Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:27:36.324Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:27:36.329Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:27:36.329Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:27:36.329Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:27:36.329Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:27:36.330Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:27:36.330Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:27:36.336Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:27:36.338Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:27:36.338Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:27:36.338Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:27:36.338Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:27:36.341Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:27:36.341Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:27:36.397Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:27:36.397Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:27:39.069Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:27:39.069Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:27:39.069Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:27:39.069Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:27:39.069Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:27:39.069Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:27:39.070Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:27:39.076Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:27:39.076Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:27:39.076Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:27:39.077Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:27:39.078Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:27:39.079Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:27:39.145Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:27:39.145Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:28:16.663Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:28:16.663Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:28:16.663Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:28:16.663Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:28:16.663Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:28:16.663Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:28:16.663Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:28:16.664Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:28:16.664Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:28:16.670Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:28:16.680Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:28:16.684Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:28:16.687Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:28:16.689Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:28:16.689Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:28:16.692Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:28:16.692Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:28:16.692Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:28:16.692Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:28:16.706Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:28:16.706Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:28:16.707Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:28:16.707Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:28:16.707Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:28:16.707Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:28:16.708Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:28:16.709Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:28:16.711Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:28:16.766Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:28:16.766Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:29:17.967Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:29:17.967Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:29:17.967Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:29:17.967Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:29:17.967Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:29:17.967Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:29:17.967Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:29:17.968Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:29:17.969Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:29:17.969Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:29:17.971Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:29:17.989Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:29:17.989Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:29:17.990Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:29:17.990Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:29:17.992Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:29:17.992Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:29:17.992Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:29:17.992Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:29:17.992Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:29:17.992Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:29:18.004Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:29:18.004Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:29:18.006Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:29:18.006Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:29:18.006Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:29:18.009Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:29:18.010Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:29:18.061Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:29:18.061Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:30:37.411Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:30:37.411Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:30:37.411Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:30:37.411Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:30:37.411Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:30:37.411Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:30:37.419Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:30:37.421Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:30:37.423Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:30:37.423Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:30:37.425Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:30:37.431Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:30:37.434Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:30:37.436Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:30:37.436Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:30:37.436Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:30:37.436Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:30:37.436Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:30:37.436Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:30:37.437Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:30:37.437Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:30:37.445Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:30:37.447Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:30:37.447Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:30:37.447Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:30:37.451Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:30:37.456Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:30:37.459Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:30:37.511Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:30:37.511Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:35:45.623Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:35:45.623Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:35:45.634Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:35:45.634Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:35:45.634Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:45.634Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:35:45.636Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:35:45.640Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:35:45.640Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:35:45.641Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:45.643Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:35:45.654Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:35:45.655Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:35:45.656Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:35:45.656Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:35:45.659Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:35:45.659Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:35:45.659Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:35:45.659Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:35:45.659Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:45.659Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:35:45.667Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:35:45.672Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:35:45.672Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:35:45.672Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:45.672Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:35:45.674Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:35:45.674Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:35:45.730Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:35:45.730Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:35:58.694Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:35:58.694Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:35:58.697Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:35:58.697Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:35:58.697Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:58.697Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:35:58.699Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:35:58.703Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:35:58.703Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:35:58.705Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:58.707Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:35:58.709Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:35:58.712Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:35:58.715Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:35:58.715Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:35:58.716Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:35:58.717Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:35:58.717Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:35:58.717Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:35:58.717Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:58.717Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:35:58.723Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:35:58.725Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:35:58.725Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:35:58.725Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:35:58.726Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:35:58.730Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:35:58.730Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:35:58.782Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:35:58.782Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:37:02.011Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:37:02.011Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:37:02.011Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:37:02.011Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:37:02.012Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:37:02.012Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:37:02.012Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:37:02.012Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:37:02.012Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:37:02.012Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:37:02.013Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:37:02.016Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-01-30T01:37:02.016Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:37:02.017Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:37:02.018Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:37:02.020Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:37:02.020Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:37:02.020Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:37:02.020Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:37:02.020Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:37:02.020Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:37:02.033Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:37:02.033Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:37:02.033Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:37:02.034Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:37:02.034Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:37:02.038Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:37:02.038Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:37:02.096Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:37:02.096Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-30T01:37:02.977Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-30T01:37:02.977Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-30T01:37:02.977Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-01-30T01:37:02.977Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-01-30T01:37:02.977Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:37:02.977Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-01-30T01:37:02.978Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-01-30T01:37:02.982Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-01-30T01:37:02.982Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-01-30T01:37:02.982Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-01-30T01:37:02.983Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-30T01:37:02.986Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-01-30T01:37:02.986Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-01-30T01:37:03.043Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-01-30T01:37:03.043Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-01T00:16:50.776Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-01T00:16:50.791Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-01T00:16:50.791Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-02-01T00:16:50.795Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-02-01T00:16:50.797Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T00:16:50.797Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-02-01T00:16:50.857Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-02-01T00:16:50.888Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-02-01T00:16:50.892Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-02-01T00:16:50.905Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T00:16:50.980Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-01T00:16:51.027Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-02-01T00:16:51.031Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-02-01T00:16:51.047Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-02-01T00:16:51.047Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-01T00:16:51.076Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-01T00:16:51.076Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-01T00:16:51.076Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-02-01T00:16:51.077Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-02-01T00:16:51.077Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T00:16:51.077Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-02-01T00:16:51.086Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-02-01T00:16:51.170Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-02-01T00:16:51.172Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-02-01T00:16:51.173Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T00:16:51.174Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-01T00:16:51.176Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-02-01T00:16:51.203Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-02-01T00:16:51.357Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-02-01T00:16:51.357Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-01T03:38:53.475Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-01T03:38:53.482Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-01T03:38:53.482Z] Accepted request OPTIONS /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-02-01T03:38:53.484Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-02-01T03:38:53.484Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T03:38:53.484Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-02-01T03:38:53.516Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-02-01T03:38:53.528Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-02-01T03:38:53.531Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-02-01T03:38:53.537Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T03:38:53.570Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-01T03:38:53.639Z] [runtime-status] [80715] Ephemeral server handling OPTIONS request
+[debug] [2020-02-01T03:38:53.654Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-02-01T03:38:53.662Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-02-01T03:38:53.662Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-01T03:38:53.663Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-01T03:38:53.663Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-01T03:38:53.663Z] Accepted request POST /tuti-943d2/us-central1/getApiToken --> getApiToken
+[debug] [2020-02-01T03:38:53.663Z] [worker-pool] submitWork(triggerId=getApiToken)
+[debug] [2020-02-01T03:38:53.663Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: Assigning socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T03:38:53.663Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: BUSY
+[debug] [2020-02-01T03:38:53.674Z] [runtime-status] [80715] Trigger "getApiToken" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getApiToken"
+[debug] [2020-02-01T03:38:53.686Z] [runtime-status] [80715] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getApiToken","entryPoint":"getApiToken"}
+[debug] [2020-02-01T03:38:53.686Z] [runtime-status] [80715] Running getApiToken in mode HTTPS
+[debug] [2020-02-01T03:38:53.725Z] [runtime-status] [80715] Attempting to listen to socketPath: /var/folders/3k/7w7m34q10dn6tjx3bf901lr40000gn/T/fire_emu_80715.sock
+[debug] [2020-02-01T03:38:53.726Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-01T03:38:53.734Z] [runtime-status] [80715] Ephemeral server handling POST request
+[debug] [2020-02-01T03:38:53.738Z] [runtime-status] [80715] Ephemeral server survived.
+[info] i  functions: Finished "getApiToken" in ~1s
+[debug] [2020-02-01T03:38:53.821Z] [worker-getApiToken-d823a0f7-1f67-4a37-a26d-31cd24b101d9]: IDLE
+[debug] [2020-02-01T03:38:53.821Z] [work-queue] {"queueLength":0,"workRunningCount":0}

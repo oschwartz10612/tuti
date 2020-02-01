@@ -3,8 +3,11 @@
     <ng-container *ngIf="enterData">
         Please enter a code
     </ng-container>
-    
 
+    <ng-container *ngIf="noRoom">
+        That room does not exist...
+    </ng-container>
+ 
     <mat-form-field>
         <input matInput placeholder="Tuti Code" #code (keyup.enter)="joinTuti(code.value)"> 
     </mat-form-field>
