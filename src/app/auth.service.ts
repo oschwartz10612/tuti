@@ -34,7 +34,6 @@ export class AuthService {
     );
 
     this.user$.subscribe(user => {
-      console.log(user);
       this.userData.uid = user.uid
     })
   }

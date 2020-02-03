@@ -4,13 +4,19 @@ img {
 }
 
 .container {
-    background-color: rgb(226, 226, 226);
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px;
-
-
-    width: 170px;
+    width: 150px;
+    height: 255px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.heading {
+    padding-top: 8px;
+    font-size: medium;
+}
+
+.button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}

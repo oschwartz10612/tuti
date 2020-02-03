@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { JoinComponent } from './join/join.component';
 import { PlayComponent } from './play/play.component';
 import { SpotifyCallbackComponent } from './spotify-callback/spotify-callback.component';
+import { SearchTileComponent } from './play/search-tile/search-tile.component';
 
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire';
@@ -20,7 +21,11 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-import { SearchTileComponent } from './play/search-tile/search-tile.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatIconModule} from '@angular/material/icon';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +48,11 @@ import { SearchTileComponent } from './play/search-tile/search-tile.component';
     MatProgressSpinnerModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule,
+    MatGridListModule,
+    MatIconModule,
+    MatSnackBarModule
   ],
   providers: [{ provide: FUNCTIONS_ORIGIN, useValue: 'http://localhost:5000' }],
   bootstrap: [AppComponent]

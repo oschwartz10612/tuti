@@ -11,19 +11,32 @@
     <ng-container *ngIf="room$ | async as room">
     
         <ng-container *ngIf="room.active; else notActive">
-    
+
             <mat-form-field>
-                <input matInput placeholder="Search Track" #searchInput (keyup.enter)="searchNow(searchInput.value)"> 
+                <input matInput placeholder="Search Track" type="search" #searchInput (keyup.enter)="searchNow(searchInput.value)"> 
+                <mat-icon matSuffix>search</mat-icon>
             </mat-form-field>
-            <button mat-raised-button color="warn" (click)="searchNow(searchInput.value)">Search</button>
-            
+            <!-- <button mat-raised-button color="warn" (click)="searchNow(searchInput.value)">Search</button> -->
+
             <ng-container *ngIf="searchResult$ | async as result">
-    
-                <ng-container *ngFor="let item of result.tracks.items">
-    
-                    <app-search-tile [url]="item.album.images[0].url" [name]="item.name" [trackId]="item.uri"></app-search-tile>
-    
-                </ng-container>
+
+                <mat-grid-list [cols]="numCols" rowHeight="300px">
+        
+                    <ng-container *ngFor="let item of result.tracks.items">
+
+                        <mat-grid-tile *ngIf="room.allowExplicit; else restricted;">
+                            <app-search-tile [url]="item.album.images[0].url" [name]=" (item.name.length > 40) ? (item.name | slice:0:40) + '...' : item.name " [trackId]="item.uri"></app-search-tile>
+                        </mat-grid-tile>
+
+                        <ng-template #restricted>
+                            <mat-grid-tile *ngIf="!item.explicit">
+                                <app-search-tile [url]="item.album.images[0].url" [name]=" (item.name.length > 40) ? (item.name | slice:0:40) + '...' : item.name " [trackId]="item.uri"></app-search-tile>
+                            </mat-grid-tile>
+                        </ng-template>
+                        
+                    </ng-container>
+
+                </mat-grid-list>
     
             </ng-container>
     

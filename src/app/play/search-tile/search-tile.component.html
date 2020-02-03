@@ -1,11 +1,14 @@
 
 
-<div class="container">
+
+<mat-card class="container">
 
     <img src="{{url}}">
 
-    <h4>{{name}}</h4>
+    <mat-card-title class="heading">{{name}}</mat-card-title>
 
-    <button mat-raised-button (click)="addTrack()">Add</button>
+    <button mat-raised-button color="primary" (click)="addTrack()" class="button">Add</button>
 
-</div>
+</mat-card>
+
+

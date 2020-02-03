@@ -58,7 +58,7 @@ async function createFirebaseAccount(spotifyID, displayName, email, accessToken,
     const uid = 'spotify:' + spotifyID;
 
     const databaseTask = admin.firestore().collection('users').doc(uid).set({
-            accessToken: accessToken, 
+            access_token: accessToken, 
             refresh_token: refresh_token,
             uid: uid,
             email: email,
@@ -92,24 +92,117 @@ async function createFirebaseAccount(spotifyID, displayName, email, accessToken,
 
 
 exports.getApiToken = functions.https.onCall(async (data, context) => {
-    // your application requests authorization
-    var authOptions = {
+    if (context.auth.uid != null && context.auth.uid != undefined) {
+        // your application requests authorization
+        var authOptions = {
+            url: 'https://accounts.spotify.com/api/token',
+            headers: {
+                'Authorization': 'Basic ' + (Buffer.from(client_id + ':' + client_secret).toString('base64'))
+            },
+            form: {
+                grant_type: 'client_credentials'
+            },
+            json: true
+        };
+
+        var token = await request.post(authOptions).catch(error => {
+            throw new functions.https.HttpsError('token-error', error);
+        });
+
+        if (!token.error) {
+            return token;
+        } else {
+            throw new functions.https.HttpsError('request-error', 'The function had trouble connecting with spotify.');
+        }
+    } else {
+        throw new functions.https.HttpsError('auth-error', 'You are not authorized to perform this funcion...');
+    }
+});
+
+
+exports.addTrack = functions.https.onCall(async (data, context) => {
+    if (context.auth.uid != null && context.auth.uid != undefined) {
+
+        const trackUri = data.uri;
+        
+        const ref = admin.firestore().doc(`rooms/${data.roomId}`);
+
+        var room = (await ref.get()).data();
+        var host = (await admin.firestore().doc(`users/${room.owner}`).get()).data();
+
+        const updateTrack = ref.collection('tracks').doc(trackUri).set({
+            uri: trackUri,
+            addedBy: context.auth.uid,
+            rank: room.currentTrackLength + 1
+        })
+
+        const updatePosition = ref.update({
+            currentTrackLength: room.currentTrackLength + 1
+        })
+
+        const addToPlaylist = request.post({
+            url: `https://api.spotify.com/v1/playlists/${room.playlist_id}/tracks`,
+            headers: {
+                'Authorization': 'Bearer ' + host.access_token
+            },
+            body: {
+                uris: [trackUri]
+            },
+            json: true
+        }).catch(async error => {
+            
+            if (error.response.body.error.message == 'The access token expired') {
+                const newAccessToken = await refreshToken(host.refresh_token, host.uid);
+
+                await request.post({
+                    url: `https://api.spotify.com/v1/playlists/${room.playlist_id}/tracks`,
+                    headers: {
+                        'Authorization': 'Bearer ' + newAccessToken
+                    },
+                    body: {
+                        uris: [trackUri]
+                    },
+                    json: true
+                }).catch(error => {
+                    throw new functions.https.HttpsError('token-error', error);
+                })
+
+                return {success: 200}; 
+
+            } else {
+                throw new functions.https.HttpsError('token-error', error);
+            }
+        })
+
+        const task = await Promise.all([updateTrack, updatePosition, addToPlaylist]);
+        
+        if(!task.error) {
+            return {success: 200}; 
+        } else {
+            throw new functions.https.HttpsError('error', 'An error occured on addition of track.'); 
+        }
+
+    } else {
+        throw new functions.https.HttpsError('auth-error', 'You are not authorized to perform this funcion.');
+    }
+})
+
+async function refreshToken(token, uid) {
+    const newToken = await request.post({
         url: 'https://accounts.spotify.com/api/token',
-        headers: {
-        'Authorization': 'Basic ' + (Buffer.from(client_id + ':' + client_secret).toString('base64'))
-        },
+        headers: { 'Authorization': 'Basic ' + (Buffer.from(client_id + ':' + client_secret).toString('base64')) },
         form: {
-        grant_type: 'client_credentials'
+          grant_type: 'refresh_token',
+          refresh_token: token
         },
         json: true
-    };
+    }).catch(error => {
+        throw new functions.https.HttpsError('token-error', error);
+    });
 
-    var token = await request.post(authOptions)
+    await admin.firestore().doc(`users/${uid}`).update({
+        access_token: newToken.access_token
+    });
 
-    if (!token.error) {
-        return token;
-    } else {
-        throw new functions.https.HttpsError('request-error', 'The function had trouble connecting with spotify.');
-    }
-
-});
+    return newToken.access_token;
+}

@@ -16,7 +16,6 @@ export class SpotifyService {
 
    async search(query, type: 'album' | 'artist' | 'playlist' | 'track') {
     const token = await this.getApiToken()
-    console.log(token);
 
     let headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
     let params = new HttpParams().set('q', query).set('type', type);
@@ -30,10 +29,6 @@ export class SpotifyService {
   }
 
   addTrack(trackUri) {
-    this.afs.doc(`rooms/${this.roomId}`).collection('tracks').doc(trackUri).set({
-      trackUri: trackUri,
-      addedBy: this.auth.userData.uid,
-      rank: 1
-    })
+    this.fns.httpsCallable('addTrack')({ uri: trackUri, roomId: this.roomId })
   }
 }

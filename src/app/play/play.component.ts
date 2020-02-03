@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Observable, of  } from 'rxjs';
@@ -14,8 +14,14 @@ export class PlayComponent implements OnInit {
   room$: Observable<any>;
   isLoaded: boolean = false;
   noRoom: boolean = false;
-
+  allowExplicit: boolean = false;
+  numCols: number = 2
   searchResult$: Observable<any>
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    this.calcCols(window.innerWidth);
+  }
 
   constructor(private route: ActivatedRoute, private router: Router, private afs: AngularFirestore, private spotify: SpotifyService) { 
     let id = this.route.snapshot.paramMap.get('id');
@@ -30,10 +36,8 @@ export class PlayComponent implements OnInit {
     })
   }
   
-
   ngOnInit() {
-
-    
+    this.calcCols(window.innerWidth)
   }
 
   async searchNow(query) {
@@ -42,6 +46,15 @@ export class PlayComponent implements OnInit {
       console.log(data);
       
     })
+  }
+
+  calcCols(width) {
+    var expectedCols = Math.round(width/160) - 2;
+    if (expectedCols <= 2) {
+      this.numCols = 2;
+    } else {
+      this.numCols = expectedCols;
+    }
   }
 
 }
